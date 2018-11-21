@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="icon.png">
+
+  <title>Benjamin & Jo-Anne</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Yrsa" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
+  <style>
+
+    #map {
+      height: 100%;
+      width: 100%;
+      /* position: absolute;
+      top: 50%;
+      left: 65%;
+      transform: translate(-50%, -50%); */
+    }
+
+    #floating-home {
+      position: fixed;
+      bottom: 50px;
+      right: 60px;
+      padding: 10px 10px 7px 10px;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+      transition: 0.5s;
+      transform: scale(0)
+    }
+
+    .show {
+      transform: scale(1) !important
+    }
+
+    .breakpoint-div {
+      text-align: left;
+    }
+
+    .breakpoint-hr {
+      margin: 0 auto 0 0;
+    }
+
+    @media only screen and (max-width: 992px) {
+      .breakpoint-div {
+        text-align: center;
+      }
+
+      .breakpoint-hr {
+        margin: 0 auto;
+      }
+    }
+
+    @media only screen and (max-width: 349px) {
+      .navbar-brand {
+        display: none;
+      }
+
+      #title {
+        font-size: 5em !important;
+      }
+    }
+  </style>
+</head>
+
+<body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <!--<a class="navbar-brand js-scroll-trigger" href="#page-top">Benjamin and Jo-Anne</a>-->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Benjamin and Jo-Anne</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Prenup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#tandaan-alfafara">Entourage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Suppliers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#maps">Location</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <a class="nav-link js-scroll-trigger" href="#page-top" id="floating-home">
+    <i class="fas fa-2x fa fa-caret-square-up text-primary2 "></i>
+  </a>
+
+  <header class="masthead text-center text-white d-flex" style="
+    background-image: url(img/header2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <h1 id="title" style="font-family: 'Tangerine', cursive; font-size: 120px">Groom & Bride</h1>
+          <hr>
+        </div>
+        <div class="col-lg-6 mx-auto">
+          <h5 class="text-faded">
+            Song of Solomon 3:4 <br><br>
+            " ...When I found the one I love. <br>
+            I held on to him, <br>
+            I would not let him go "
+          </h5>
+          <br><br><br><br>
+        </div>
+      </div>
+  </header>
+
+  <section class="bg-primary" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 mx-auto text-center">
+          <h3 class="section-heading text-black" style="font-family: 'Tangerine', cursive; font-size: 60px">Benjamin &
+            Jo-Anne</h3>
+        </div>
+      </div>
+      <div class="row">
+        <!--<div class="col-sm-4">
+            <a class="portfolio-box">
+              <img class="img-fluid" src="img/people/1.jpg" style="height: 300px;" alt="">
+              <div class="portfolio-box-caption"></div>
+            </a>
+          </div>-->
+        <div class="col-sm-8 mx-auto text-center">
+          <hr class="light my-4" style="border-color: rgb(70, 69, 67)">
+          <h5 class="text-faded2 mb-4">
+            A story of love, patience and happiness. <br>
+            Two people bonded by faith vows to stick to each other forever. <br>
+          </h5>
+          <h1 class="text-faded2 mb-4 sr-date-time">
+            12.03.18 | 1:30PM
+          </h1>
+          <h5 class="text-faded2 mb-4">
+            To be solemnized at the <br>
+            Kingdom Hall of Jehovah's Witnesses
+          </h5>
+          <br>
+        </div>
+        <!--<div class="col-sm-4">
+          </div>-->
+      </div>
+    </div>
+  </section>
+
+
+  <!--PORTFOLIO 1st Set -->
+  <section class="p-0" id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters popup-gallery">
+        <div class="col-lg-4 col-sm-12">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption"></div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content"></div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-4 col-sm-12">
+          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content"></div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content"></div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-4 col-sm-12">
+          <a class="portfolio-box" href="img/portfolio/fullsize/7.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/7.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content"></div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <a class="portfolio-box" href="img/portfolio/fullsize/8.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/8.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content"></div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <a class="portfolio-box" href="img/portfolio/fullsize/9.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/9.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content"></div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="tandaan-alfafara" style="
+    background-image: url(img/header1.jpg);
+    box-shadow: inset 1px 2000px rgba(0,0,0, 0.60);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 mx-auto text-center">
+          <h3 class="section-heading text-black" style="font-family: 'Tangerine', cursive; font-size: 60px; color:rgb(226, 227, 222)">
+            Entourage
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 mx-auto text-center">
+          <hr class="light my-4" style="border-color: rgb(226, 227, 222)">
+          <h5 class="text-faded3 mb-1">Officiating Minister</h5>
+          <h4 class="text-faded3 mb-5">Senen Forbes</h4>
+
+          <h5 class="text-faded3 mb-1">Chairman</h5>
+          <h4 class="text-faded3 mb-5">Leo Esguerra</h4>
+
+          <h5 class="text-faded3 mb-2">Groom's Parents</h5>
+          <h4 class="text-faded3 mb-5">Josephine Tandaan<br>Escorted By: Abner Tandaan</h4>
+
+          <h5 class="text-faded3 mb-2">Bride's Parents</h5>
+          <h4 class="text-faded3 mb-5">Vicente Alfafara Jr.<br>Analisa Alfafara</h4>
+
+          <h5 class="text-faded3 mb-1">Witnesses</h5>
+          <h4 class="text-faded3 mb-1">Alfred Custado Jr.</h4>
+          <h4 class="text-faded3 mb-5">Lilia Bandilla</h4>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <h5 class="text-faded3 mb-2">Director of the Ceremony</h5>
+                <h4 class="text-faded3 mb-5">Dennis Quisao</h4>
+              </div>
+              <div class="col-sm-6">
+                <h5 class="text-faded3 mb-2">Director of the Feast</h5>
+                <h4 class="text-faded3 mb-5">Rolando Perez</h4>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h5 class="text-faded3 mb-2">Groomsmen</h5>
+                  <h4 class="text-faded3 mb-1">Paul Gerard Alfafara</h4>
+                  <h4 class="text-faded3 mb-1">Peter Russy Alfafara</h4>
+                  <h4 class="text-faded3 mb-1">Von Matthew Alfafara</h4>
+                  <h4 class="text-faded3 mb-1">James Alfafara</h4>
+                  <h4 class="text-faded3 mb-5">Reynaldo Laborte</h4>
+                </div>
+                <div class="col-sm-6">
+                  <h5 class="text-faded3 mb-2">Bridesmaids</h5>
+                  <h4 class="text-faded3 mb-1">Kervi Ann Alfafara</h4>
+                  <h4 class="text-faded3 mb-5">Yesha Ann Alfafara</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <section id="services" class="bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-primary2" style="font-family: 'Tangerine', cursive; font-size: 60px">Suppliers</h2>
+          <hr class="my-4">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <!--<i class="fas fa-4x	fas fa-glass-martini-alt text-primary2 mb-3 sr-icon-1"></i>-->
+            <i class="fas fa-4x	fas fa-wine-glass-alt text-primary2 mb-3 sr-icon-1"></i>
+            <h3 class="text-faded mb-1">Juan Carlo the Caterer</h3>
+            <p class="text-faded mb-2">The Philippines' premier catering <br> and event services company</p>
+            <div class="social-media">
+              <a href="https://www.facebook.com/juancarlocaterer/"><i class="fab fa-1x fa-facebook-f text-primary3 mb-1"></i></a>
+              <a style="margin:0 20px" href="https://www.instagram.com/juancarlocaterer/"><i class="fab fa-1x fa-instagram text-primary3 mb-1"></i></a>
+              <a href="https://juancarlo.ph/"><i class="fas fa-1x fa-globe-asia text-primary3 mb-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="fas fa-4x fa-map-marked-alt text-primary2 mb-3 sr-icon-2"></i>
+            <h3 class="text-faded mb-1">Ouans the Farm Resort</h3>
+            <p class="text-faded mb-2">Rustic and serene environment with the sweet smelling aroma of fresh air</p>
+            <div class="social-media">
+              <a style="margin:0 10px" href="https://www.facebook.com/OuansTheFarmResort/"><i class="fab fa-1x fa-facebook-f text-primary3 mb-1"></i></a>
+              <a href="https://www.instagram.com/ouans_thefarmresort/"><i class="fab fa-1x fa-instagram text-primary3 mb-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="fas fa-4x fa fa-camera-retro text-primary2 mb-3 sr-icon-3"></i>
+            <h3 class="text-faded mb-1">Totie Sy Photography</h3>
+            <p class="text-faded mb-2">Destination Wedding Photographer. <br> Telling Stories Through Photographs</p>
+            <div class="social-media">
+              <a style="margin:0 10px" href="https://www.facebook.com/TotieSyPhotography/"><i class="fab fa-1x fa-facebook-f text-primary3 mb-1"></i></a>
+              <a href="https://www.instagram.com/totie_sy_photography/"><i class="fab fa-1x fa-instagram text-primary3 mb-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <!--<i class="fas fa-4x fas fa-eye text-primary2 mb-3 sr-icon-4"></i>-->
+            <i class="fas fa-4x fas fa-palette text-primary2 mb-3 sr-icon-4"></i>
+            <h3 class="text-faded mb-1">Make-Up by Edna Sy</h3>
+            <p class="text-faded mb-2">Professional Airbrush & Hd Make-Up artist </p>
+            <div class="social-media">
+              <a style="margin:0 10px" href="https://www.facebook.com/MakeUpByEdnaSy/"><i class="fab fa-1x fa-facebook-f text-primary3 mb-1"></i></a>
+              <a href="https://www.instagram.com/makeupbyednasy/"><i class="fab fa-1x fa-instagram text-primary3 mb-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="fas fa-4x	fas fa-leaf text-primary2 mb-3 sr-icon-4"></i>
+            <h3 class="text-faded mb-1">Fleur Du Monde</h3>
+            <p class="text-faded mb-2">Premium quality flowers</p>
+            <div class="social-media">
+              <a style="margin:0 10px" href="https://www.facebook.com/fleurdemondeph/"><i class="fab fa-1x fa-facebook-f text-primary3 mb-1"></i></a>
+              <a href="https://www.instagram.com/fleurdumondeph/"><i class="fab fa-1x fa-instagram text-primary3 mb-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="fas fa-4x far fa-file text-primary2 mb-3 sr-icon-4"></i>
+            <h3 class="text-faded mb-1">Print & Co.</h3>
+            <p class="text-faded mb-2">Premium cards for all occasions</p>
+            <div class="social-media">
+              <a href="https://www.facebook.com/printandco/"><i class="fab fa-1x fa-facebook-f text-primary3 mb-1"></i></a>
+              <a style="margin:0 20px" href="https://www.instagram.com/printandcompany/"><i class="fab fa-1x fa-instagram text-primary3 mb-1"></i></a>
+              <a href="https://www.printandcompany.com/"><i class="fas fa-1x fa-globe-asia text-primary3 mb-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="maps" style="background-color: rgb(247,247,247);">
+    <div class="contact-wrapper section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-4 breakpoint-div">
+            <h2 class="section-heading text-black" style="font-family: 'Tangerine', cursive; font-size: 60px">Location</h2>
+            <hr class="light my-4 breakpoint-hr" style="border-color: rgb(70, 69, 67)">
+            <h3 class="text-faded2 mb-2 sr-date-time">
+              Kingdom Hall of <br> Jehovah's Witnesses
+            </h3>
+            <h5 class="text-faded2 mb-4">
+              Granja St, Lucena, 4301 Quezon
+            </h5>
+            <h5 class="text-faded2 mb-4">
+              A social gathering will follow at <br>
+              Ouans the Farm Resort <br>
+              K.m 133 Diversion Road, Lucena City
+            </h5>
+			<h5 style="font-family: 'Parisienne', serif; color: rgb(70, 69, 67)">
+              #prayerhasBenAnneswered
+            </h5>
+            <br>
+          </div>
+          <div class="col-sm-12 col-lg-8" style="height: 406.2px !important">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let floatingHome = document.querySelector('#floating-home')
+
+    window.onscroll = function () {
+      if (window.pageYOffset)
+        floatingHome.classList.add('show')
+      else
+        floatingHome.classList.remove('show')
+    }
+  </script>
+
+  <script>
+    function initMap() {
+      var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+      var styles =
+        [
+          {
+            "featureType": "administrative",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#444444"
+              }
+            ]
+          },
+          {
+            "featureType": "landscape",
+            "elementType": "all",
+            "stylers": [
+              {
+                "color": "#f2f2f2"
+              }
+            ]
+          },
+          {
+            "featureType": "poi",
+            "elementType": "all",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "road",
+            "elementType": "all",
+            "stylers": [
+              {
+                "saturation": -100
+              },
+              {
+                "lightness": 45
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "all",
+            "stylers": [
+              {
+                "visibility": "simplified"
+              }
+            ]
+          },
+          {
+            "featureType": "road.arterial",
+            "elementType": "labels.icon",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "transit",
+            "elementType": "all",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "all",
+            "stylers": [
+              {
+                "color": "#9fbbc8"
+              },
+              {
+                "visibility": "on"
+              }
+            ]
+          }
+        ]
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 13,
+        center: { lat: 13.940784950000001, lng: 121.61286898802118 },
+        styles: styles
+      });
+
+      var beachMarker = new google.maps.Marker({
+        position: { lat: 13.940784950000001, lng: 121.61286898802118 },
+        map: map
+      });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsOpoHxKhvfeHWiUBYMmPiZwYBa55r-tw&callback=initMap"
+    async defer></script>
+
+  <!--
+    <section id="contact" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="my-4">
+            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
+            <p>123-456-6789</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+
+  <script>
+
+  </script>
+</body>
+
+</html>
